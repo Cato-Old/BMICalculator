@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d732869-ae9a-43dd-9942-99d65d6d3a45" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Calculator/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Calculator/BMICalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator/BMICalculator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -31,28 +31,28 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="gradle" value="1" />
-          <entry key="java" value="9" />
+          <entry key="java" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="java" value="2017" />
-          <entry key="txt" value="124" />
+          <entry key="java" value="2562" />
+          <entry key="txt" value="195" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="2017" />
-          <entry key="PLAIN_TEXT" value="124" />
+          <entry key="JAVA" value="2562" />
+          <entry key="PLAIN_TEXT" value="195" />
         </counts>
       </usages-collector>
     </session>
@@ -68,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Calculator/BMICalculator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
-              <caret line="40" column="41" lean-forward="true" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+              <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,12 +83,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BMICalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="388">
+              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#266#267#0" expanded="true" />
                 <element signature="e#301#302#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Calculator/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -424,8 +436,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Calculator/Calculator.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/BMICalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Calculator/BMICalculator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BMICalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Calculator/Main.java" />
       </list>
     </option>
   </component>
@@ -497,7 +510,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544270205939" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544275650706" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -514,7 +527,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BMICalculatorTest.interpretTest">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Calculator.Main" />
+      <module name="BMI_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BMICalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BMI_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -547,12 +573,14 @@
       <item itemvalue="JUnit.BMICalculatorTest" />
       <item itemvalue="JUnit.BMICalculatorTest.calculateTest" />
       <item itemvalue="JUnit.BMICalculatorTest.interpretTest" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.BMICalculatorTest" />
         <item itemvalue="JUnit.BMICalculatorTest.interpretTest" />
         <item itemvalue="JUnit.BMICalculatorTest.calculateTest" />
-        <item itemvalue="JUnit.BMICalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -588,16 +616,24 @@
       <option name="project" value="LOCAL" />
       <updated>1544270238808</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding validation in constructor BMICalculator">
+      <created>1544270498873</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1544270498873</updated>
+    </task>
+    <task id="LOCAL-00005" summary="little enhancement">
+      <created>1544273654833</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1544273654833</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BMICalculatorTest_interpretTest - 2018.12.08 at 12h 30m 37s.xml">
-      <configuration name="BMICalculatorTest.interpretTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BMICalculatorTest_interpretTest - 2018.12.08 at 12h 33m 08s.xml">
-      <configuration name="BMICalculatorTest.interpretTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BMICalculatorTest_interpretTest - 2018.12.08 at 12h 35m 39s.xml">
       <configuration name="BMICalculatorTest.interpretTest" configurationId="JUnit" />
     </history-entry>
@@ -621,6 +657,12 @@
     </history-entry>
     <history-entry file="BMICalculatorTest_interpretTest - 2018.12.08 at 12h 51m 27s.xml">
       <configuration name="BMICalculatorTest.interpretTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BMICalculatorTest - 2018.12.08 at 13h 50m 14s.xml">
+      <configuration name="BMICalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BMICalculatorTest - 2018.12.08 at 13h 53m 01s.xml">
+      <configuration name="BMICalculatorTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -694,7 +736,9 @@
     <MESSAGE value="adding test for BMICalculator class" />
     <MESSAGE value="adding calculate method implementation" />
     <MESSAGE value="adding interpret method implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding interpret method implementation" />
+    <MESSAGE value="adding validation in constructor BMICalculator" />
+    <MESSAGE value="little enhancement" />
+    <option name="LAST_COMMIT_MESSAGE" value="little enhancement" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -704,29 +748,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Calculator/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BMICalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -771,10 +796,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BMICalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Calculator/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Calculator/BMICalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="40" column="41" lean-forward="true" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Calculator/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
