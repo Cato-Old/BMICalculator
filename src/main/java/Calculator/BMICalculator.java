@@ -1,0 +1,1 @@
+package Calculator;public class BMICalculator implements Calculator {    private int weight;    private int height;    BMICalculator(int weight, int height){        this.weight = weight;        this.height = height;    }    @Override    public String calculate() {        return null;    }    @Override    public String interpret() {        return null;    }}
