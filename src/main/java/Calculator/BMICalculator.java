@@ -23,7 +23,7 @@ public class BMICalculator implements Calculator {
     @Override
     public String calculate() {
         Double bmi = weight / pow(height/100d, 2);
-        return String.format("%.1f", bmi);
+        return String.format("%.1f", bmi).replaceAll(",","\\.");
     }
 
     @Override
@@ -40,8 +40,8 @@ public class BMICalculator implements Calculator {
                            "morbidly obese",
                            "super obese",
                            "hyper obese"};
-        double bmiValue = Double.parseDouble(calculate().replaceAll(",","\\."));
-        int index = abs(-1 * (Arrays.binarySearch(limitValues,bmiValue) +1));
+        double bmiValue = Double.parseDouble(calculate());
+        int index = abs(-1 * (Arrays.binarySearch(limitValues,bmiValue) + 1));
         return labels[index];
     }
 }
