@@ -1,5 +1,7 @@
 package Calculator;
 
+import static java.lang.Math.pow;
+
 public class BMICalculator implements Calculator {
     private int weight;
     private int height;
@@ -13,11 +15,13 @@ public class BMICalculator implements Calculator {
 
     @Override
     public String calculate() {
-        return null;
+        Double bmi = weight / pow(height/100d, 2);
+        return String.format("%.1f", bmi);
     }
 
     @Override
     public String interpret() {
+
         return null;
     }
 }
