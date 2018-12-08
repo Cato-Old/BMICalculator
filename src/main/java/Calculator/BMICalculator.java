@@ -8,8 +8,16 @@ public class BMICalculator implements Calculator {
     private int height;
 
     public BMICalculator(int weight, int height){
-        this.weight = weight;
-        this.height = height;
+        if (weight > 0){
+            this.weight = weight;
+        } else {
+            throw new IllegalArgumentException("Inappropriate weight");
+        }
+        if (height > 0){
+            this.height = height;
+        } else {
+            throw new IllegalArgumentException("Inappropriate height");
+        }
     }
 
     @Override
